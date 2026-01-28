@@ -1,6 +1,6 @@
 html {
 
-    font-family: "Times New Roman", serif;
+    font-family: "Noticia Text", "Times New Roman", serif;
 }
 
 body {
@@ -13,6 +13,7 @@ h1 {
     margin: 0px;
     border: 2px solid black;
     display: inline-block;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -20,12 +21,13 @@ h2 {
     font-size: 3em;
     margin: 50px 0px 0px 0px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 main {
 
     column-count: 3;
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 header > p {
@@ -34,6 +36,7 @@ header > p {
     margin: 0px;
     text-align: center;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 main h4 {

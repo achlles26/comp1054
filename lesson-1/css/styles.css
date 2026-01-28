@@ -1,2 +1,89 @@
 @charset "UTF-8";
 
+/* named selector */
+h2 {
+    color: red;
+    font-style: italic;
+}
+
+/* id selector */
+#project {
+
+    color: olive;
+}
+
+/* class selector */
+.about {
+
+    background-color: lightgray;
+}
+
+/* contextual selector */
+section p {
+
+    color: darkorange;
+}
+
+.subProject p {
+
+    color: darkblue;
+}
+
+/* grouped selector */
+
+h1, h2, h3 {
+
+    font-family: sans-serif;
+}
+
+/* pseudo class selector */
+
+a:link {
+
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+a:visited {
+    color: red;
+}
+
+a:focus {
+
+    text-decoration: underline;
+}
+
+a:hover {
+
+    background-color: yellow;
+}
+
+a:active {
+
+    color: darkorange;
+}
+
+/* structural pseudo-class selector */
+
+li:nth-child(3n - 1) {
+
+    background-color: white;
+}
+
+li:nth-of-type(even) {
+
+    font-weight: bold;
+}
+
+article section:last-of-type {
+
+    background-color: lightblue;
+}
+
+/* pseudo element selector */
+
+h1 + p::first-line {
+
+    text-transform: uppercase;
+}
