@@ -19,9 +19,13 @@
 		}
 		h2 {
 			/* STEP 4a: Apply another non-standard visual effect -webkit-text-stroke-color (and width) */
-
+			color: white;
+			font: 1200%/1.2 Impact, sans-serif;
+			text-align: center;
+			font-weight: normal;
 			/* STEP 4b: Since text-stroke is center-aligned on the outline of the font, use paint-order to address this ugly default (https://css-tricks.com/text-stroke-stuck-middle/) */
-
+			-webkit-text-stroke: 40px red;
+			paint-order: stroke fill;
 		}
 		/* "Florida gulf coast" By Mmacbeth - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=39319981 */
 	</style>
