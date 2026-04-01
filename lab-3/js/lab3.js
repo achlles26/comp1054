@@ -3,8 +3,8 @@ const divs = document.querySelectorAll('div[role="tabpanel"]')
 
 divs.forEach(div =>{
 
-    div.style.display = "none";
-});
+        div.style.display = "none";
+    });
 
 
 lis.forEach((li) =>{
@@ -16,7 +16,7 @@ lis.forEach((li) =>{
             div.style.display = "none";
         });
 
-        let div = document.getElementById(li.querySelector("a").href.slice(66))
+        let div = document.getElementById(li.querySelector("a").href.slice(43));
         div.style.display = "block";
     });
 

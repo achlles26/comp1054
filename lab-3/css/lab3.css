@@ -21,6 +21,11 @@ ul {
 
 	list-style: none;
 	display: flex;
+	margin-bottom: 0px;
+}
+div {
+
+	margin-top: 0px;
 }
 
 li {
