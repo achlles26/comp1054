@@ -100,7 +100,7 @@ footer {
 	}
 }
 /* STEP 4b: Add another media query breakpoint for even bigger screens (4-column layout) */
-@media only screen and ((min-width: 768px) or (orientation: landscape)) {
+@media only screen and (min-width: 768px){
 	/* STEP 13a: Rearrange the navigation so that we don't use the hamburger */
 	#menu-icon {
 
